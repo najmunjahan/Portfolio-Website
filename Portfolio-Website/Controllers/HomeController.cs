@@ -15,6 +15,7 @@ namespace Portfolio_Website.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Title"] = "Najmun Jahan - ASP.NET Developer";
             return View();
         }
 
